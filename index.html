@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Validation</h1>
+        <div class="input-box">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" id="input-name" onkeyup="nameValidate()">
+            <span class="name-error"></span>
+        </div>
+        <div class="input-box">
+            <label>Phone</label>
+            <input type="tel" placeholder="Enter your phone no." id="input-phone" onkeyup="phoneValidate()">
+            <span class="phone-error"></span>
+        </div>
+        <div class="input-box">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" id="input-email" onkeyup="emailValidate()">
+            <span class="email-error"></span>
+        </div>
+        <div>
+            <textarea id="feedback"></textarea>
+            <span class="feedError"></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</html>
+</body>
