@@ -23,8 +23,8 @@ body{
 }
 .container h1{
     background:linear-gradient(29deg,#000000,#751148);
-    background-clip: text;
-    color:transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .input-box>label{
     width:60px;
